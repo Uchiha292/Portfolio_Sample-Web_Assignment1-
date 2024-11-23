@@ -1,0 +1,11 @@
+.projects {    
+    background-color: #202020;
+    border: 1px solid #404040;
+}
+
+@media (max-width: 768px) {
+    .container div {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

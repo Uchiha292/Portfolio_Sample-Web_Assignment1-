@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gallery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/CSS/common.css">
+    </head>
+
+    <body>
+        <header class="p-6 w-10/12 mx-auto">
+            <nav class="mx-auto flex justify-between items-center space-x-6">
+                <h1 class="text-base">accHamza@hotmail.com</h1>
+                <ul class="flex space-x-4">
+                    <li><a href="/HTML/index.html" class="hover:text-gray-400">Home</a></li>
+                    <li><a href="/HTML/profile.html" class="hover:text-gray-400">Personal Profile</a></li>
+                    <li><a href="#" class="text-xl text-geay-200 hover:text-gray-400">Gallery</a></li>
+                    <li><a href="/HTML/goals.html" class="hover:text-gray-400">Career Goals</a></li>
+                    <li><a href="/HTML/project.html" class="hover:text-gray-400">Projects</a></li>
+                    <li><a href="/HTML/skillsInterest.html" class="hover:text-gray-400">Skills & Interests</a></li>
+                    <li><a href="/HTML/contact.html" class="hover:text-gray-400">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="mx-4 mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <figure class="relative my-4">
+                <img src="/Images/weather.jpeg" alt="Weather" class="w-full h-64">
+                <figcaption class="text-center">Weather Predictor</figcaption>
+            </figure>
+
+            <figure class="relative my-4">
+                <img src="/Images/finance.png" alt="Finance" class="w-full h-64">
+                <figcaption class="text-center">Finance Helper</figcaption>
+            </figure>
+
+            <figure class="relative my-4">
+                <img src="/Images/disease.png" alt="Disease" class="w-full h-64">
+                <figcaption class="text-center">Disease Detector</figcaption>
+            </figure>
+        </section>
+        
+        <footer class="mt-16 py-8">
+            <div class="mx-auto text-center">
+                <h3 class="text-xl font-bold">Tell me about your next project</h3>
+                <button class="contactButton mt-4"><a href="/HTML/contact.html">Get in Touch</a></button>
+            </div>
+        </footer>
+    
+    </body>
+</html>
